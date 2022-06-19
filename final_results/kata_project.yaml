@@ -1,0 +1,11 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ../business/train.txt  # Here you need to specify the path, so if not in same folder, 
+# then for example ../data/train.txt
+val: ../business/val.txt  
+test: ../business/test.txt 
+
+# number of classes, use your own number
+nc: 5
+
+# class names, change to reflect yours
+names: ['name','email','website','phone','address']
